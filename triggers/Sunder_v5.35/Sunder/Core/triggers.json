@@ -1,0 +1,16 @@
+[
+    {
+        "name": "prompt",
+        "patterns": [
+            {
+                "pattern": "return isPrompt()",
+                "type": "prompt"
+            },
+
+            {
+                "pattern": "^.+",
+                "type": "regex"
+            }
+        ]
+    }
+]
